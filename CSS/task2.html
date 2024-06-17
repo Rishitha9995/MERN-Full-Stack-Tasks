@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-2</title>
+    <style>
+        ul.vertical {
+            list-style-type: none;
+            width:250px;
+            padding:11px 11px 0px 7px;
+            border: 1.59px solid black;
+        }
+        ul.vertical li{
+            background-color: lightblue;
+            color: blue;
+            font-size: x-large;
+            padding: 13px;
+            
+        }
+        ul.vertical li.active{
+            background-color:orange;
+            color: white;
+        }
+        ul.vertical li:hover{
+            background-color:orange;
+        }
+        h4.vnav{
+            padding-left: 20px;
+        }
+        h4.hnav{
+            padding-left: 100px;
+            padding-bottom: 10px;
+        }
+        ul.horizontal{
+            list-style-type: none;
+            padding: 0;
+            border: 1.5px solid;
+            padding: 9px 0px 8px 5px;
+            display: flex;
+            width:405px;
+        }
+        ul.horizontal li{
+            display: block;
+            background-color: lightgray;
+            color: blue;
+            padding: 13px 18px;
+            border-right: 1px solid blue;
+            font-size: large;
+        }
+        ul.horizontal li:last-child{
+            border-right: none;
+            padding-right: 80.5px;
+        }
+        ul.horizontal li.active{
+            background-color: gray;
+            color: white;
+        }
+        ul.horizontal li:hover{
+            background-color: gray;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        div.container{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <nav class="vnav"> 
+            <h4 class="vnav">Vertical Navigation Bar</h4>  
+            <ul class="vertical">
+                <li class="active" id="l1"><a href="https://ethnus.com/" target="_blank">Home</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">Java</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">CSS</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">HTML</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">Bootstrap</a></li>
+            </ul>
+        </nav>
+        <nav class="hnav">
+            <h4 class="hnav">Horizontal Navigation Bar</h4>
+            <ul class="horizontal">
+                <li class="active" id="l1"><a href="https://ethnus.com/" target="_blank">Home</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">Java</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">HTML</a></li>
+                <li><a href="https://ethnus.com/" target="_blank">CSS</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

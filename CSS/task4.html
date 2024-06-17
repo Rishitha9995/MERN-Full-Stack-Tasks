@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-4</title>
+    <style>
+        div#sidenav a{
+            position: absolute;
+            left: -85px;
+            color: white;
+            transition: 0.4s;
+            padding: 15px;
+            width: 105px;
+            font-size: 20px;
+            text-decoration: none; 
+            border-radius: 0 5px 5px 0;
+        }
+        div#sidenav a:hover{
+            left: 0;
+        }
+        #Home{
+            background-color: #04AA6D;
+            top:20px;
+            
+        }
+        #Live-TV{
+            background-color: #2196F3;
+            top:80px;
+            
+        }
+        #News{
+            background-color: #f44336;
+            top:140px;
+            
+        }
+        #Contact{
+            background-color: #555;
+            top:200px;
+            
+        }        
+    </style>
+</head>
+<body>
+    <div id="sidenav"class="nav">
+        <a href="https://codemithra.com/" target="_blank" id="Home">Home</a>
+        <a href="https://codemithra.com/" target="_blank" id="Live-TV">Live-TV</a>
+        <a href="https://codemithra.com/" target="_blank" id="News">News</a>
+        <a href="https://codemithra.com/" target="_blank" id="Contact">Contact</a>
+    </div>
+    <div style="margin-left: 80px;">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+</html>

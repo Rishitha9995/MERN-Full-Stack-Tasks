@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-1</title>
+    <style>
+        th.table1,td.table1{
+            border: 1px solid;  
+            border-radius: 10px;
+            background-color: #96D4D4; 
+            width:300px;                  
+        }
+        table.table1{
+            top: 200px;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: #96D4D4;
+            border-left: hidden;
+        }
+        table.table2{
+            border-spacing: 18px;
+        }
+        .rectangle1{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+            border-radius: 4px;
+        }
+        .rectangle2{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+            border-radius: 6px;
+        }
+        .rectangle3{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+            border-radius: 14px;
+        }
+        .rectangle4{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+        }
+        .rectangle5{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+            border-top-left-radius: 4px;
+            border-top-right-radius: 14px;
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 6px;
+        }
+        .oval1{
+            height: 40px;
+            width: 70px;
+            border: 3px solid rgb(143, 209, 43);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="table1" align="center" >
+        <table class="table1">
+            <thead class="table1">
+                <tr>
+                    <th class="table1">Firstname</th>
+                    <th class="table1">Lastname</th>
+                    <th class="table1">Age</th>
+                </tr>
+            </thead>
+            <tbody class="table1">
+                <tr>
+                    <td class="table1">Jill</td>
+                    <td class="table1">Smith</td>
+                    <td class="table1">50</td> 
+                </tr>
+                <tr>
+                    <td class="table1">Eve</td>
+                    <td class="table1">Jackson</td>
+                    <td class="table1">94</td> 
+                </tr>
+                <tr>
+                    <td class="table1">John</td>
+                    <td class="table1">Doe</td>
+                    <td class="table1">80</td> 
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="table2" align="center">
+        <table class="table2">
+                <tr>
+                    <td><div class="rectangle1"> </div></td>
+                    <td><div class="rectangle2"> </div></td>
+                    <td><div class="rectangle3"> </div></td>
+                </tr>
+                <tr>
+                    <td><div class="rectangle2"> </div></td>
+                    <td><div class="rectangle4"> </div></td>
+                    <td><div class="rectangle3"> </div></td> 
+                </tr>
+                <tr>
+                    <td><div class="oval1"> </div></td>
+                    <td><div class="rectangle1"> </div></td>
+                    <td><div class="rectangle5"> </div></td> 
+                </tr>
+        </table>
+    </div>
+</body>
+</html>
